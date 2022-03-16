@@ -1,12 +1,13 @@
-# import library
+#two lines of imports one for ot one for socket
 import math, random
 
 import socket
 s = socket.socket() 
 
 port = 7777
+host = "127.0.0.1"
 
-s.bind(('',port))
+s.bind((host,port))
 print ("socket binded to %s" %(port))
 
 s.listen(5)
