@@ -13,7 +13,15 @@ print ("socket binded to %s" %(port))
 s.listen(5)
 print ("socket is listening ")
 
+username=input("enter the correct username")
+password=input("enter the correct password")
+    
+while username != "Ethan":
+    username=input("enter the correct username")
+        
 
+while password != "Pa55":
+    password=input("enter the correct password")
 
 # function to generate OTP
 def generateOTP() :
