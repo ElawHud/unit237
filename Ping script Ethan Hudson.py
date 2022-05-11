@@ -21,9 +21,9 @@ def ping(host):
 
     return msg
 
-host = 'AssContainer1'
-host1 = '172.22.0.2'
-host2 = '172.22.0.3'
+host = 'AssContainer0'
+host1 = '172.22.0.4'
+host2 = '172.22.0.5'
 
 print('\n',ping(host),'\n')
 print('\n',ping(host1),'\n')
